@@ -72,10 +72,15 @@ WSGI_APPLICATION = "yigou_mail.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# 设置MySQL配置信息
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql", #数据库引擎
+        "HOST":'127.0.0.1', #数据库主机
+        "PORT":3306, #数据库端口
+        "USER":'yigou', #数据库用户
+        "PASSWORD":'123456', #数据库用户密码
+        "NAME":'yigou_mall' #数据库名字
     }
 }
 
