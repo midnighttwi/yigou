@@ -1,0 +1,45 @@
+INFO 2025-07-11 18:03:34,130 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 18:04:36,404 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 18:04:39,020 basehttp 213 "GET / HTTP/1.1" 200 12068
+WARNING 2025-07-11 18:04:39,433 log 253 Not Found: /favicon.ico
+WARNING 2025-07-11 18:04:39,433 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2212
+INFO 2025-07-11 22:11:32,162 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 22:17:13,202 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 22:18:36,775 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 22:30:22,326 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:09:12,683 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:12:12,156 basehttp 213 "GET /usernames/itcast/count/ HTTP/1.1" 200 39
+INFO 2025-07-11 23:15:46,567 autoreload 265 D:\Shangcheng\yigou_mail\apps\users\views.py changed, reloading.
+INFO 2025-07-11 23:15:47,420 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:17:12,654 autoreload 265 D:\Shangcheng\yigou_mail\apps\users\views.py changed, reloading.
+INFO 2025-07-11 23:17:13,719 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:18:31,847 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:18:46,149 basehttp 213 "GET /usernames/asdfghjkl;%27/count/ HTTP/1.1" 200 41
+INFO 2025-07-11 23:18:51,119 basehttp 213 "GET /usernames/asdfghjkl;%27;lkjhgfd/count/ HTTP/1.1" 200 41
+INFO 2025-07-11 23:19:00,127 basehttp 213 "GET /usernames/asdfghjkl;%27;lkjhgf24534355543543543453453d/count/ HTTP/1.1" 200 41
+INFO 2025-07-11 23:20:03,861 basehttp 213 "GET /usernames/asdfghjkl;%27;lkjhgf24534355543543543453453d/count/ HTTP/1.1" 200 41
+INFO 2025-07-11 23:21:06,363 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:21:13,051 basehttp 213 "GET /usernames/asdfghjkl;%27;lkjhgf24534355543543543453453d/count/ HTTP/1.1" 200 41
+INFO 2025-07-11 23:23:15,099 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:23:27,403 basehttp 213 "GET /usernames/asdfghjkl;%27;lkjhgf245343555435ajkfkj;ldj;gbskjlbvlafdbvea43543453453d/count/ HTTP/1.1" 200 41
+INFO 2025-07-11 23:25:52,031 autoreload 265 D:\Shangcheng\yigou_mail\apps\users\views.py changed, reloading.
+INFO 2025-07-11 23:25:52,852 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:25:59,437 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:26:02,867 basehttp 213 "GET /usernames/asdfghjkl;%27;lkjhgf245343555435ajkfkj;ldj;gbskjlbvlafdbvea43543453453d/count/ HTTP/1.1" 200 75
+INFO 2025-07-11 23:33:06,992 autoreload 667 Watching for file changes with StatReloader
+WARNING 2025-07-11 23:33:58,069 log 253 Not Found: /usernames/sddfdgdhdfghjkldfghjkl/count/
+WARNING 2025-07-11 23:33:58,069 basehttp 213 "GET /usernames/sddfdgdhdfghjkldfghjkl/count/ HTTP/1.1" 404 2571
+WARNING 2025-07-11 23:34:24,618 log 253 Not Found: /usernames/sdd/count/
+WARNING 2025-07-11 23:34:24,618 basehttp 213 "GET /usernames/sdd/count/ HTTP/1.1" 404 2514
+WARNING 2025-07-11 23:34:32,657 log 253 Not Found: /usernames/sdgjd/count/
+WARNING 2025-07-11 23:34:32,657 basehttp 213 "GET /usernames/sdgjd/count/ HTTP/1.1" 404 2520
+WARNING 2025-07-11 23:34:39,051 log 253 Not Found: /usernames/sdgjd44/count/
+WARNING 2025-07-11 23:34:39,051 basehttp 213 "GET /usernames/sdgjd44/count/ HTTP/1.1" 404 2526
+INFO 2025-07-11 23:35:27,710 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:35:30,832 basehttp 213 "GET /usernames/sdgjd44/count/ HTTP/1.1" 200 41
+WARNING 2025-07-11 23:35:44,894 log 253 Not Found: /usernames/sdgjd441561161dksjhgklhgljasgfkahgdlksjglk/count/
+WARNING 2025-07-11 23:35:44,895 basehttp 213 "GET /usernames/sdgjd441561161dksjhgklhgljasgfkahgdlksjglk/count/ HTTP/1.1" 404 2631
+INFO 2025-07-11 23:36:29,529 basehttp 213 "GET /usernames/sdgjd4/count/ HTTP/1.1" 200 41
+INFO 2025-07-11 23:38:36,248 autoreload 265 D:\Shangcheng\yigou_mail\yigou_mail\settings.py changed, reloading.
+INFO 2025-07-11 23:38:37,186 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-11 23:38:45,705 autoreload 667 Watching for file changes with StatReloader
