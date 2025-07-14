@@ -43,3 +43,278 @@ INFO 2025-07-11 23:36:29,529 basehttp 213 "GET /usernames/sdgjd4/count/ HTTP/1.1
 INFO 2025-07-11 23:38:36,248 autoreload 265 D:\Shangcheng\yigou_mail\yigou_mail\settings.py changed, reloading.
 INFO 2025-07-11 23:38:37,186 autoreload 667 Watching for file changes with StatReloader
 INFO 2025-07-11 23:38:45,705 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 19:17:01,584 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 19:39:41,146 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 21:33:34,722 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 21:34:03,492 autoreload 667 Watching for file changes with StatReloader
+WARNING 2025-07-12 21:35:03,019 log 253 Not Found: /image_codes/1523/
+WARNING 2025-07-12 21:35:03,020 basehttp 213 "GET /image_codes/1523/ HTTP/1.1" 404 2747
+WARNING 2025-07-12 21:35:03,329 log 253 Not Found: /favicon.ico
+WARNING 2025-07-12 21:35:03,330 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2729
+INFO 2025-07-12 21:35:41,089 autoreload 265 D:\Shangcheng\yigou_mail\yigou_mail\urls.py changed, reloading.
+INFO 2025-07-12 21:35:42,131 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 21:36:00,598 autoreload 667 Watching for file changes with StatReloader
+WARNING 2025-07-12 21:36:04,882 log 253 Not Found: /image_codes/1523/
+WARNING 2025-07-12 21:36:04,883 basehttp 213 "GET /image_codes/1523/ HTTP/1.1" 404 3004
+WARNING 2025-07-12 21:36:37,570 log 253 Not Found: /image_codes/1523/
+WARNING 2025-07-12 21:36:37,571 basehttp 213 "GET /image_codes/1523/ HTTP/1.1" 404 3004
+WARNING 2025-07-12 21:37:31,241 log 253 Not Found: /image_codes/1523/
+WARNING 2025-07-12 21:37:31,242 basehttp 213 "GET /image_codes/1523/ HTTP/1.1" 404 3004
+WARNING 2025-07-12 21:38:07,323 log 253 Not Found: /image_codes/123/
+WARNING 2025-07-12 21:38:07,324 basehttp 213 "GET /image_codes/123/ HTTP/1.1" 404 3001
+INFO 2025-07-12 21:39:59,550 autoreload 667 Watching for file changes with StatReloader
+ERROR 2025-07-12 21:40:07,207 log 253 Internal Server Error: /image_codes/1548/
+Traceback (most recent call last):
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\apps\verifications\views.py", line 15, in get
+    text,image= captcha.generate_captcha()
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'libs.captcha.captcha.captcha' has no attribute 'generate_captcha'
+ERROR 2025-07-12 21:40:07,210 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 500 80757
+INFO 2025-07-12 21:41:42,416 autoreload 265 D:\Shangcheng\yigou_mail\apps\verifications\views.py changed, reloading.
+INFO 2025-07-12 21:41:43,497 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 21:42:40,567 autoreload 265 D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py changed, reloading.
+INFO 2025-07-12 21:42:41,540 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 21:43:48,738 autoreload 265 D:\Shangcheng\yigou_mail\apps\verifications\views.py changed, reloading.
+INFO 2025-07-12 21:43:49,590 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 21:44:29,462 autoreload 265 D:\Shangcheng\yigou_mail\apps\verifications\views.py changed, reloading.
+INFO 2025-07-12 21:44:30,351 autoreload 667 Watching for file changes with StatReloader
+ERROR 2025-07-12 21:44:36,107 log 253 Internal Server Error: /image_codes/1548/
+Traceback (most recent call last):
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\apps\verifications\views.py", line 14, in get
+    text,image=captcha.generate_captcha()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'libs.captcha.captcha.captcha' has no attribute 'generate_captcha'
+ERROR 2025-07-12 21:44:36,109 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 500 80890
+INFO 2025-07-12 21:52:10,976 autoreload 667 Watching for file changes with StatReloader
+ERROR 2025-07-12 21:52:15,584 log 253 Internal Server Error: /image_codes/1548/
+Traceback (most recent call last):
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\apps\verifications\views.py", line 16, in get
+    text,image=captcha.generate_captcha()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'libs.captcha.captcha.captcha' has no attribute 'generate_captcha'
+ERROR 2025-07-12 21:52:15,587 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 500 80889
+INFO 2025-07-12 21:52:55,406 autoreload 667 Watching for file changes with StatReloader
+ERROR 2025-07-12 21:53:05,184 log 253 Internal Server Error: /image_codes/1548/
+Traceback (most recent call last):
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\apps\verifications\views.py", line 16, in get
+    text,image=captcha.generate_captcha()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'libs.captcha.captcha.captcha' has no attribute 'generate_captcha'
+ERROR 2025-07-12 21:53:05,186 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 500 80552
+INFO 2025-07-12 21:55:09,025 autoreload 667 Watching for file changes with StatReloader
+ERROR 2025-07-12 21:55:13,009 log 253 Internal Server Error: /image_codes/1548/
+Traceback (most recent call last):
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\apps\verifications\views.py", line 15, in get
+    text,image=captcha.captcha.generate_captcha()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 215, in generate_captcha
+    return self.captcha("")
+           ^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 204, in captcha
+    image = self.text(image, self.fonts, drawings=['warp', 'rotate', 'offset'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 132, in text
+    c_width, c_height = draw.textsize(c, font=font)
+                        ^^^^^^^^^^^^^
+AttributeError: 'ImageDraw' object has no attribute 'textsize'
+ERROR 2025-07-12 21:55:13,012 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 500 95098
+INFO 2025-07-12 21:55:48,373 autoreload 667 Watching for file changes with StatReloader
+ERROR 2025-07-12 21:55:52,277 log 253 Internal Server Error: /image_codes/1548/
+Traceback (most recent call last):
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\apps\verifications\views.py", line 15, in get
+    text,image=captcha.captcha.generate_captcha()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 215, in generate_captcha
+    return self.captcha("")
+           ^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 204, in captcha
+    image = self.text(image, self.fonts, drawings=['warp', 'rotate', 'offset'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 132, in text
+    c_width, c_height = draw.textsize(c, font=font)
+                        ^^^^^^^^^^^^^
+AttributeError: 'ImageDraw' object has no attribute 'textsize'
+ERROR 2025-07-12 21:55:52,280 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 500 95098
+INFO 2025-07-12 21:57:59,361 autoreload 667 Watching for file changes with StatReloader
+ERROR 2025-07-12 21:58:03,310 log 253 Internal Server Error: /image_codes/1548/
+Traceback (most recent call last):
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\apps\verifications\views.py", line 15, in get
+    text,image=captcha.captcha.generate_captcha()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 220, in generate_captcha
+    return self.captcha("")
+           ^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 209, in captcha
+    image = self.text(image, self.fonts, drawings=['warp', 'rotate', 'offset'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 137, in text
+    c_width, c_height = draw.textsize(c, font=font)
+                        ^^^^^^^^^^^^^
+AttributeError: 'ImageDraw' object has no attribute 'textsize'
+ERROR 2025-07-12 21:58:03,314 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 500 95097
+INFO 2025-07-12 21:59:03,641 autoreload 667 Watching for file changes with StatReloader
+ERROR 2025-07-12 21:59:06,814 log 253 Internal Server Error: /image_codes/1548/
+Traceback (most recent call last):
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ANACONDA\envs\Shangcheng\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\apps\verifications\views.py", line 15, in get
+    text,image=captcha.captcha.generate_captcha()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 220, in generate_captcha
+    return self.captcha("")
+           ^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 209, in captcha
+    image = self.text(image, self.fonts, drawings=['warp', 'rotate', 'offset'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Shangcheng\yigou_mail\libs\captcha\captcha\captcha.py", line 137, in text
+    c_width, c_height = textsize_compat(c, font=font)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: textsize_compat() missing 1 required positional argument: 'text'
+ERROR 2025-07-12 21:59:06,818 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 500 95138
+INFO 2025-07-12 21:59:36,327 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 21:59:39,543 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 200 3149
+INFO 2025-07-12 21:59:51,679 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-12 21:59:53,440 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 200 2692
+INFO 2025-07-12 22:00:01,518 basehttp 213 "GET /image_codes/1548/ HTTP/1.1" 200 3083
+INFO 2025-07-12 22:00:14,693 basehttp 213 "GET /image_codes/124/ HTTP/1.1" 200 2936
+INFO 2025-07-12 23:21:00,115 autoreload 667 Watching for file changes with StatReloader
+WARNING 2025-07-12 23:21:20,829 log 253 Not Found: /
+WARNING 2025-07-12 23:21:20,830 basehttp 213 "GET / HTTP/1.1" 404 2941
+WARNING 2025-07-12 23:21:21,192 log 253 Not Found: /favicon.ico
+WARNING 2025-07-12 23:21:21,193 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2992
+WARNING 2025-07-12 23:21:50,611 log 253 Not Found: /
+WARNING 2025-07-12 23:21:50,612 basehttp 213 "GET / HTTP/1.1" 404 2936
+WARNING 2025-07-12 23:21:50,974 log 253 Not Found: /favicon.ico
+WARNING 2025-07-12 23:21:50,975 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 2987
+INFO 2025-07-12 23:42:30,509 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-13 17:29:22,225 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-13 17:31:34,817 autoreload 265 D:\Shangcheng\yigou_mail\apps\users\views.py changed, reloading.
+INFO 2025-07-13 17:31:35,817 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-13 22:17:08,044 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-13 22:18:22,661 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-13 22:19:16,738 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-13 22:23:58,413 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-13 22:24:46,799 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-13 23:38:38,476 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-14 22:34:42,888 autoreload 667 Watching for file changes with StatReloader
+WARNING 2025-07-14 22:35:12,445 log 253 Not Found: /areas/
+WARNING 2025-07-14 22:35:12,446 basehttp 213 "GET /areas/ HTTP/1.1" 404 3929
+WARNING 2025-07-14 22:35:12,748 log 253 Not Found: /favicon.ico
+WARNING 2025-07-14 22:35:12,749 basehttp 213 "GET /favicon.ico HTTP/1.1" 404 3944
+INFO 2025-07-14 22:36:43,858 autoreload 667 Watching for file changes with StatReloader
+WARNING 2025-07-14 22:36:53,548 log 253 Not Found: /areas/
+WARNING 2025-07-14 22:36:53,549 basehttp 213 "GET /areas/ HTTP/1.1" 404 3929
+INFO 2025-07-14 22:37:30,930 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-14 22:37:33,761 basehttp 213 "GET /areas/ HTTP/1.1" 200 1772
+INFO 2025-07-14 22:38:21,146 autoreload 265 D:\Shangcheng\yigou_mail\apps\areas\urls.py changed, reloading.
+INFO 2025-07-14 22:38:22,310 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-14 22:39:55,688 autoreload 265 D:\Shangcheng\yigou_mail\apps\areas\views.py changed, reloading.
+INFO 2025-07-14 22:39:57,184 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-14 22:41:58,701 autoreload 265 D:\Shangcheng\yigou_mail\apps\areas\views.py changed, reloading.
+INFO 2025-07-14 22:42:00,002 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-14 22:43:04,230 autoreload 265 D:\Shangcheng\yigou_mail\apps\areas\views.py changed, reloading.
+INFO 2025-07-14 22:43:05,749 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-14 22:43:25,520 autoreload 265 D:\Shangcheng\yigou_mail\apps\areas\views.py changed, reloading.
+INFO 2025-07-14 22:43:27,142 autoreload 667 Watching for file changes with StatReloader
+WARNING 2025-07-14 22:43:35,333 log 253 Not Found: /areas/130000
+WARNING 2025-07-14 22:43:35,334 basehttp 213 "GET /areas/130000 HTTP/1.1" 404 4186
+INFO 2025-07-14 22:44:13,339 autoreload 265 D:\Shangcheng\yigou_mail\apps\areas\urls.py changed, reloading.
+INFO 2025-07-14 22:44:14,268 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-14 22:44:15,716 basehttp 213 "GET /areas/130000 HTTP/1.1" 200 657
+INFO 2025-07-14 22:44:30,143 autoreload 265 D:\Shangcheng\yigou_mail\apps\areas\urls.py changed, reloading.
+INFO 2025-07-14 22:44:31,001 autoreload 667 Watching for file changes with StatReloader
+INFO 2025-07-14 22:44:31,573 basehttp 213 "GET /areas/130000/ HTTP/1.1" 200 657

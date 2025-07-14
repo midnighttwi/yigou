@@ -41,13 +41,15 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "apps.users", # 注册
+    "apps.verifications",
+    "apps.areas"
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
-    "django.middleware.csrf.CsrfViewMiddleware",
+    # "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
@@ -140,6 +142,13 @@ CACHES={
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
+    },
+    "code": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
     }
 }
 SESSION_ENGINE="django.contrib.sessions.backends.cache"
@@ -206,3 +215,15 @@ CORS_ORIGIN_WHITELIST = (
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 
+############邮件发送相关###########################
+#  让django的哪个类来发送邮件
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# 邮件服务器的主机和端口号
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+
+# 使用我的 163服务器 和 授权码
+#发送邮件的邮箱
+EMAIL_HOST_USER = 'urstjshsuxj@163.com'
+#在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'PAwFz3AtK5A84tfX'
