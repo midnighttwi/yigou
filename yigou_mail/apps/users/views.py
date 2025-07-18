@@ -259,3 +259,4 @@ class AddressView(LoginRequiredJSONMixin,View):
 
         #返回响应
         return JsonResponse({'code':0,'errmsg':'ok','addresses':address_list})
+

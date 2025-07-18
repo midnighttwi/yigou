@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "apps.users", # 注册
     "apps.verifications",
-    "apps.areas"
+    "apps.areas",
+    "apps.goods",
+    "apps.contents"
 ]
 
 MIDDLEWARE = [

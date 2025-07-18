@@ -1,7 +1,7 @@
 from django.db.models.expressions import result
 from django.http import JsonResponse
 from django.views import View
-from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+from itsdangerous import URLSafeTimedSerializer as Serializer
 
 from apps.users.models import User
 from yigou_mail import settings

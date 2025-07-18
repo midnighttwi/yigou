@@ -318,3 +318,4 @@ INFO 2025-07-14 22:44:15,716 basehttp 213 "GET /areas/130000 HTTP/1.1" 200 657
 INFO 2025-07-14 22:44:30,143 autoreload 265 D:\Shangcheng\yigou_mail\apps\areas\urls.py changed, reloading.
 INFO 2025-07-14 22:44:31,001 autoreload 667 Watching for file changes with StatReloader
 INFO 2025-07-14 22:44:31,573 basehttp 213 "GET /areas/130000/ HTTP/1.1" 200 657
+INFO 2025-07-17 16:53:38,871 autoreload 667 Watching for file changes with StatReloader
